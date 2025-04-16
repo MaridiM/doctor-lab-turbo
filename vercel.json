@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "cd ../.. && turbo run build --filter={apps/patients}...",
+  "buildCommand": "cd ../.. && turbo run build --filter=patients...",
   "installCommand": "bun install",
   "framework": "nextjs",
   "outputDirectory": ".next",
